@@ -41,8 +41,8 @@ d3.xml("data.xml").get(function(error,data){
 
 d3.json("treeData.json").get(function(error,data){
 
- console.log(data[0]);
- console.log(data[0].children);
- console.log(data[0].children[0].children[1].name);
+ //console.log(data[0]);
+ //console.log(data[0].children);
+ //console.log(data[0].children[0].children[1].name);
 
 });
