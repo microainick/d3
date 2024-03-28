@@ -38,7 +38,7 @@ console.log(letterNodes);
 
 });
 
-d3.text("https://github.com/microainick/d3/blob/main/test.txt").get(function(error, data) {
+d3.text("test.txt").get(function(error, data) {
 
 var myTabPositions = [];
 var myNewLinePositions = [];
