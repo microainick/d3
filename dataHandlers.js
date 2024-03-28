@@ -31,7 +31,7 @@ d3.text("data.txt")
 
 d3.xml("data.xml").get(function(error,data){
 
-    console.log(data);
+    console.log(data.documentElement);
 
 });
 
