@@ -29,6 +29,6 @@ d3.tsv("data.tsv")
 
 d3.json("treeData.json").get(function(error,data){
 
-      consol.log(data);
+      console.log(data);
 
 });
