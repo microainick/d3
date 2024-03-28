@@ -60,6 +60,7 @@ data.replace(lineRegExp, function(a,b){ myNewLinePositions.push(b); return a; })
 })
 
 d3.html("https://enable-cors.org").get(function(error,data) {
+var frag = data.querySelector("div");
 console.log(data);
 
 });
