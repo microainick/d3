@@ -34,7 +34,7 @@ d3.xml("data.xml").get(function(error,data){
 var xmlLetter = data.documentElement.getElementsByTagName("letter");
 var letterNodes = d3.select(data).selectAll("letter")._groups[0][0];
 
-console.log(letterNodes);
+//console.log(letterNodes);
 
 });
 
@@ -54,12 +54,15 @@ var lineRegExp = new RegExp(lineVal,lineMod);
 data.replace(tabRegExp, function(a,b){ myTabPositions.push(b); return a; });
 data.replace(lineRegExp, function(a,b){ myNewLinePositions.push(b); return a; });
 
-console.log(myTabPositions);
-console.log(myNewLinePositions);
+//console.log(myTabPositions);
+//console.log(myNewLinePositions);
 
 })
 
+d3.html("http://enable-cors.org").get(function(error,data) {
+console.log(data);
 
+});
 
 d3.json("treeData.json").get(function(error,data){
 
