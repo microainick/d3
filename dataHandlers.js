@@ -32,8 +32,9 @@ d3.text("data.txt")
 d3.xml("data.xml").get(function(error,data){
 
 var xmlLetter = data.documentElement.getElementsByTagName("letter");
+var letterNodes = d3.select(data).selectAll("letter")
 
-console.log(xmlLetter);
+console.log(letterNodes);
 
 });
 
