@@ -29,7 +29,7 @@ d3.text("data.txt")
 //console.log(newRows);
     });
 
-d3.xml(data.xml).get(function(error,data){
+d3.xml("data.xml").get(function(error,data){
 
     console.log(data);
 
