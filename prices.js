@@ -34,5 +34,7 @@ d3.csv("prices.csv")
                           .y(function(d){ return y(d.price); });
 
           chartGroup.append("path").attr("d",line(data));
+          chartGroup.append("g").attr("class","x axis").call(xAxis);
+          chartGroup.append("g").attr("class","y axis").call(yAxis);
 
 })
