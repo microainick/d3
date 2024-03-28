@@ -38,7 +38,21 @@ console.log(letterNodes);
 
 });
 
+d3.text("https://github.com/microainick/d3/blob/main/test.txt").get(function(error, data) {
 
+var myTabPosition = [];
+var myNewLinePositions = [];
+
+var tabVal = '\\b\t\\b';
+var tabMod = 'g';
+var tabRegExp = new RegExp(tabVal,tabMod);
+
+var lineVal = '\\b\n\\b';
+var lineMod = 'g';
+var lineRegExp = new RegExp(lineVal,lineMod);
+
+
+})
 
 
 
