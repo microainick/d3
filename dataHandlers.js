@@ -31,7 +31,9 @@ d3.text("data.txt")
 
 d3.xml("data.xml").get(function(error,data){
 
-    console.log(data.documentElement);
+var xmlLetter = data.documentElement.getElementsByTagName("letter");
+
+console.log(xmlLetter);
 
 });
 
