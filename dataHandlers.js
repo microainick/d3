@@ -59,7 +59,7 @@ data.replace(lineRegExp, function(a,b){ myNewLinePositions.push(b); return a; })
 
 })
 
-d3.html("http://enable-cors.org").get(function(error,data) {
+d3.html("https://enable-cors.org").get(function(error,data) {
 console.log(data);
 
 });
